@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /chitchat/latest/Iron%%20Man
+Document Length:        0 bytes
+
+Concurrency Level:      225
+Time taken for tests:   2.843 seconds
+Complete requests:      20000
+Failed requests:        0
+Keep-Alive requests:    20000
+Total transferred:      2180000 bytes
+HTML transferred:       0 bytes
+Requests per second:    7034.45 [#/sec] (mean)
+Time per request:       31.985 [ms] (mean)
+Time per request:       0.142 [ms] (mean, across all concurrent requests)
+Transfer rate:          748.78 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.5      0       7
+Processing:     2   32  11.9     29     121
+Waiting:        2   32  11.9     29     121
+Total:          2   32  11.9     29     121
+
+Percentage of the requests served within a certain time (ms)
+  50%     29
+  66%     34
+  75%     37
+  80%     39
+  90%     47
+  95%     56
+  98%     66
+  99%     73
+ 100%    121 (longest request)

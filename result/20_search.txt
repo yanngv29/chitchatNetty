@@ -1,0 +1,43 @@
+This is ApacheBench, Version 2.3 <$Revision: 1528965 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking localhost (be patient)
+
+
+Server Software:        
+Server Hostname:        localhost
+Server Port:            8080
+
+Document Path:          /chitchat/search?q=hulk
+Document Length:        2519 bytes
+
+Concurrency Level:      20
+Time taken for tests:   20.600 seconds
+Complete requests:      20000
+Failed requests:        0
+Keep-Alive requests:    20000
+Total transferred:      51680000 bytes
+HTML transferred:       50380000 bytes
+Requests per second:    970.86 [#/sec] (mean)
+Time per request:       20.600 [ms] (mean)
+Time per request:       1.030 [ms] (mean, across all concurrent requests)
+Transfer rate:          2449.89 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.0      0       0
+Processing:     4   21  12.5     17      98
+Waiting:        4   21  12.5     17      98
+Total:          4   21  12.5     17      98
+
+Percentage of the requests served within a certain time (ms)
+  50%     17
+  66%     24
+  75%     27
+  80%     30
+  90%     38
+  95%     45
+  98%     54
+  99%     60
+ 100%     98 (longest request)
