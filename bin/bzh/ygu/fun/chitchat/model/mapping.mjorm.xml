@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<descriptors>
+
+        <object class="bzh.ygu.fun.chitchat.model.Hero">
+                <property name="name" id="true" />
+                <property name="messages"  >
+                	<type-param class="bzh.ygu.fun.chitchat.model.Message"></type-param>
+                </property>
+        </object>
+        <object class="bzh.ygu.fun.chitchat.model.Message">
+        		<property name="id" id="true" auto="true" />
+                <property name="text" />
+                <property name="author" class="bzh.ygu.fun.chitchat.model.Hero" />
+                <property name="createdAt" />
+                <property name="threadId" />
+        </object>   
+        <object class="bzh.ygu.fun.chitchat.model.MessageThread">
+        		<property name="id" id="true" auto="true" />
+                <property name="threadId" />
+                <property name="messages" class="java.lang.TreeSet" >
+                	<type-param class="bzh.ygu.fun.chitchat.model.Message"></type-param>
+                </property>
+        </object>   
+
+</descriptors>
